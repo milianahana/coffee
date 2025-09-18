@@ -1,0 +1,121 @@
+.bannerbg1{
+	background-image:url( "../images/PLbanner2.jpg");
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	color:white;
+}
+.nav{
+	margin-top:3%;
+	margin-left:55%;
+}
+.nav a{
+	padding:4%;
+	font-family:Franklin Gothic Heavy !important;
+	color:white;
+}
+.nav a:hover{
+	color:#888888;
+	cursor:pointer;
+}
+.toggle{
+		  width:10%;
+		  float:right;
+		  cursor:pointer;
+		  display:none;
+	  }
+.dot-menu{
+		  width:50%;
+		  height:auto;
+		  background-color:transparent;
+		  margin:auto;
+		  display:none;
+	  }
+.dot-menu a{
+		  height:10%;
+		  display:block;
+		  text-decoration:none;
+		  text-align:center;
+		  color:white;
+		  line-height:40px;
+	  }
+.dot-menu a:hover{
+		  background-color:transparent;
+	  }
+.content1 img{
+	width:50%;
+	margin-left:20%;
+}
+.number{
+	text-align:center;
+	margin-top: 5%;
+	margin-bottom:5%;
+}
+.number h1{
+	font-family:Papyrus !important;
+	font-size:400%;
+	color:#b5a292;
+}
+.number h3{
+	font-family:Source Serif 4 Variable !important;
+	padding-bottom:10%;
+	color:#5c5754;
+	text-transform:uppercase;
+}
+.footer11{
+	background-color:#503e36;
+	height:80px;
+	color:white;
+}
+.logo img{
+	width:40%;
+}
+.images{
+	margin-left: 0%;
+}
+.copy{
+	margin-top:1.5%;
+}
+.number p{
+	font-family:Franklin Gothic Book !important;
+	font-size:100%;
+}
+
+@media(max-width:425px){
+	.toggle{
+		display:block;
+		
+	}
+	.nav{
+		display:none;
+	}
+	.number{
+		width:100% !important;
+	}
+
+	
+	.content1 img{
+	margin-left:25%;
+    }
+	.number{
+	margin-bottom:0%;
+	}
+	h1{
+	    font-size:250%;
+		padding-top:10%;
+    }
+	p{
+	    font-size:120%;
+	    line-height:150%;
+	    margin-bottom:10%;
+	}
+	.footer11{
+		height: 130px;
+	}
+	.copy{
+	font-size: 50%;
+	margin-top:10%;
+	}
+	
+}
+	  

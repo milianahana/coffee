@@ -1,0 +1,148 @@
+.bannerbg3{
+	background-image:url( "../images/PGbanner3.jpg");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:cover;
+}
+.nav{
+	margin-top:3%;
+	margin-left:55%;
+}
+.nav a{
+	padding:4%;
+	font-family:Franklin Gothic Heavy !important;
+	color:black;
+}
+.nav a:hover{
+	color:#888888;
+	cursor:pointer;
+}
+.toggle{
+		  width:10%;
+		  float:right;
+		  cursor:pointer;
+		  display:none;
+	  }
+.dot-menu{
+		  width:50%;
+		  height:auto;
+		  background-color:transparent;
+		  margin:auto;
+		  display:none;
+	  }
+.dot-menu a{
+		  height:10%;
+		  display:block;
+		  text-decoration:none;
+		  text-align:center;
+		  color:black;
+		  line-height:40px;
+	  }
+.dot-menu a:hover{
+		  background-color:transparent;
+	  }
+.coffees{
+  position: relative;
+  width: 50%;
+}
+.coffees img{
+	margin-left:-10%;
+	opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.coffees:hover .bag {
+  opacity: 0.3;
+}
+.coffees:hover .middle {
+  opacity: 1;
+}
+.coffees h2{
+	font-family:Franklin Gothic Heavy !important;
+}
+.coffees p{
+	color:black;
+	font-family:Source Serif 4 Variable !important;
+	margin-left:-10%;
+	margin-top:-5%;
+}
+h1{
+	font-size:500%;
+	font-family:Franklin Gothic Heavy !important;
+	text-transform:uppercase;
+	text-align:center;
+	padding-top:5%;
+}
+.line{
+	margin-left:400px;
+}
+p{
+	text-align:center;
+	font-size:150%;
+	line-height:150%;
+	font-family:Franklin Gothic Book !important;
+	color:#554024;
+	margin-bottom:5%;
+}
+.footer11{
+	background-color:#503e36;
+	height:80px;
+	color:white;
+}
+.logo img{
+	width:40%;
+}
+.images{
+	margin-left: 0%;
+}
+.copy{
+	margin-top:1.5%;
+}
+.number p{
+	font-family:Franklin Gothic Book !important;
+	font-size:100%;
+}
+@media(max-width:425px){
+	.toggle{
+		display:block;
+		
+	}
+	.nav{
+		display:none;
+	}
+	.coffees{
+		width:100% !important;
+		text-align:center;
+	}
+	.coffees img{
+		width:50%;
+		margin-left:25%;
+	}
+		.line{
+		margin-left:110px;
+		width:200% !important;
+	}
+	.coffees p{
+		margin-left:2%;		
+    }
+	.footer11{
+		height: 130px;
+	}
+	.copy{
+	font-size: 50%;
+	margin-top:10%;
+	}
+}

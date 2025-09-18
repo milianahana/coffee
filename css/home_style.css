@@ -1,0 +1,174 @@
+.bannerbg1{
+	background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.5)), url( "../images/Hbanner1.jpg");
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:1000px;
+	color:white;
+}
+.nam{
+	margin:3%;
+}
+.nam h2{
+	font-family:Mistral !important;
+	font-size:25px;
+	border: 2px solid white;
+	border-radius:50px;
+	padding-bottom:1%;
+	padding-top:1%;
+	padding-left:20%;
+}
+.nav{
+	margin-top:3%;
+	margin-left:35%;
+}
+.nav a{
+	padding:4%;
+	font-family:Franklin Gothic Heavy !important;
+	color:white;
+}
+.nav a:hover{
+	color:#888888;
+	cursor:pointer;
+}
+.logo1{
+	margin-left:370px;
+}
+h1{
+	font-size:500%;
+	font-family:Franklin Gothic Heavy !important;
+	text-transform:uppercase;
+	text-align:center;
+}
+.line{
+	margin-left:350px;
+}
+p{
+	text-align:center;
+	font-size:150%;
+	line-height:150%;
+	margin-bottom:10%;
+	font-family:Franklin Gothic Book !important;
+}
+.para1 a{
+	text-align:center;
+	border:1px solid white;
+	color:white;
+	padding:1% 3%;
+	margin-left:35%;
+	font-size:150%;
+	font-family:sitka !important;
+}
+.para1 a:hover{
+	background-color:white;
+	color:black;
+}
+
+
+ .toggle{
+		  width:10%;
+		  float:right;
+		  cursor:pointer;
+		  display:none;
+	  }
+	  .dot-menu{
+		  width:50%;
+		  height:auto;
+		  background-color:transparent;
+		  margin:auto;
+		  display:none;
+	  }
+	  .dot-menu a{
+		  height:10%;
+		  display:block;
+		  text-decoration:none;
+		  text-align:center;
+		  color:white;
+		  line-height:40px;
+	  }
+	  .dot-menu a:hover{
+		  background-color:transparent;
+	  }
+.footer11{
+	background-color:#503e36;
+	height:80px;
+	color:white;
+}
+.logo img{
+	width:40%;
+}
+.images{
+	margin-left: 0%;
+}
+.copy{
+	margin-top:1.5%;
+}
+
+
+
+@media(max-width:425px){
+	.bannerbg1{
+	background-position:left;
+	}
+	.toggle{
+		display:block;
+		margin-top:-13%;
+	}
+	.bannerbg1{
+	    height:1000px;
+	}
+
+	.nav{
+		display:none;
+	}
+	.nam h2{
+		border:0;
+	}
+	.logo1{
+		margin-left:150px;
+		width:200% !important;
+		margin-top:100%;
+    }
+	h1{
+	    font-size:400%;
+    }
+	.line{
+		margin-left:110px;
+		width:200% !important;
+	}
+	.col-6{
+		width:100% !important;
+	}
+	p{
+	    font-size:100%;
+	    line-height:100%;
+	    margin-bottom:10%;
+	}
+	.para1 a{
+	padding:2% 5%;
+	font-size:100%;
+	margin-left:32%;
+	}
+	.footer11{
+		height: 130px;
+	}
+	.copy{
+	font-size: 50%;
+	margin-top:10%;
+	}
+
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

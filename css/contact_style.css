@@ -1,0 +1,136 @@
+.nav{
+	margin-top:3%;
+	margin-left:55%;
+}
+.nav a{
+	padding:4%;
+	font-family:Franklin Gothic Heavy !important;
+	color:white;
+}
+.nav a:hover{
+	color:#888888;
+	cursor:pointer;
+}
+.toggle{
+		  width:10%;
+		  float:right;
+		  cursor:pointer;
+		  display:none;
+	  }
+.dot-menu{
+		  width:50%;
+		  height:auto;
+		  background-color:transparent;
+		  margin:auto;
+		  display:none;
+	  }
+.dot-menu a{
+		  height:10%;
+		  display:block;
+		  text-decoration:none;
+		  text-align:center;
+		  color:white;
+		  line-height:40px;
+	  }
+.dot-menu a:hover{
+		  background-color:transparent;
+	  }
+.bannerbg1{
+		background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/footer.jpg);
+	    background-position:center;
+	    background-repeat:no-repeat;
+	    background-size:cover;
+		color:white;
+		text-align:center;
+		height:1000px; 
+}
+.imgs{
+	margin-left:30%;
+	margin-bottom:-10%;
+}
+.para1{
+	margin-left:22%;
+	margin-bottom:10%;
+	font-family:Franklin Gothic Book !important;
+	line-height:25px;
+}
+.para2{
+	margin-left:25%;
+	margin-bottom:10%;
+}
+.para2 h1{
+	padding-bottom:5%;
+	font-family:Franklin Gothic Heavy !important;
+}
+.para2 p{
+	 font-family:Franklin Gothic Book !important;
+	 line-height:30px;
+}
+.para2 h2{
+	padding-top:5%;
+	font-family:Franklin Gothic Heavy !important;
+	text-transform:uppercase;
+}
+.email{
+	border:1px solid #a2a2a2;
+	background-color:transparent;
+	color:#a2a2a2;
+	padding:2% 10%;
+	margin-top:5%;
+}
+.btn{
+	background-color:white;
+	color:brown;
+	border:1px solid white;
+	padding:2%;
+}
+.footer11{
+	background-color:#503e36;
+	height:80px;
+	color:white;
+}
+.logo img{
+	width:40%;
+}
+.images{
+	margin-left: 0%;
+}
+.copy{
+	margin-top:1.5%;
+}
+.number p{
+	font-family:Franklin Gothic Book !important;
+	font-size:100%;
+}
+
+@media(max-width:425px){
+	.toggle{
+		display:block;
+		
+	}
+	.nav{
+		display:none;
+	}
+	.imgs{
+	width:100% !important;
+	margin-left:0;
+	}
+	.para1{
+	margin-left:0;
+	margin-top:-10%;
+	width:100% !important;
+	margin-bottom:10%;
+	line-height:25px;
+	}
+	.para2{
+		width:100% !important;
+		margin-left:0;
+	}
+	.footer11{
+		height: 130px;
+	}
+	.copy{
+	font-size: 50%;
+	margin-top:10%;
+	}
+}
